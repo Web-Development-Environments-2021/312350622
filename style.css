@@ -1,7 +1,132 @@
 #menu
-{
+ul {
+	list-style-type: none;
 	position: fixed;
 	width: 100%;
-	height: 35px;
-	background: white;
+	padding: 4;
+	overflow: auto;
+	background-color: #778899;
+	border-radius: 25px;
+	margin-block-start: 1.1em;
+	margin-left: 4%;
+  }
+  .bar-img img{
+	float: left;
+	position: fixed;
+	width: 200px;
+	height: 200px;
+	background: #555;
+	border-radius: 50%
+  }
+  li {
+	float: left;
+  }
+  
+  li a {
+	font-family: Impact;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	letter-spacing: 2px;
+	text-decoration: none;
+  }
+
+  li a:hover {
+	background-color: #111;
+  }
+  img.logo{
+	display: inline-block;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 15px;
+  }
+body{
+	background-color: #B0C4DE;
+}
+.center{
+	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+	border-radius: 85%
+}
+
+h2{
+	text-shadow: 2px 2px white;
+	text-align: center;
+	color: rgb(10, 99, 102);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3{
+	text-align: center;
+}
+section{
+	border:3px solid white;
+	text-align: right;
+	border-radius: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5;
+	direction: rtl;
+}
+h3.title{
+	text-align: center;
+	font-family: Fantasy;
+	letter-spacing: 2px;
+	font-size: xx-large;
+	color: cornflowerblue;
+}
+img.tree{
+	height: 300px;
+	margin-top: 7%;
+	margin-left: 7%;
+	float: left;
+}
+img.tree:hover{
+	transform: scale(1.5);
+}
+
+div.gallery {
+	float: left;
+	width: 180px;
+	margin-left: 3%;
+  }
+  
+  div.gallery:hover {
+	border: 1px solid #777;
+	transform: scale(1.5);
+  }
+  
+  div.gallery img {
+	width: 100%;
+	height: auto;
+  }
+  
+  div.desc {
+	padding: 15px;
+	text-align: center;
+  }
+ .video{
+	  float: right;
+	  margin-right: 3%;
+	  margin-top: 3%;
+	  font-size: large;
+	  line-height: 1.9;
+	  font-family: sVerdana, Geneva, Tahoma, sans-serif;
+	  
+  }
+.youtube{
+	float: left;
+	direction: rtl;
+	margin-left: 10%;
+
+}
+.me{
+	margin-right: 8%;
+	line-height: 1.9;
+	font-family: sVerdana, Geneva, Tahoma, sans-serif;
 }
