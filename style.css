@@ -5,10 +5,10 @@ ul {
 	width: 100%;
 	padding: 4;
 	overflow: auto;
-	background-color: #778899;
+	background-color: #eec48e;
 	border-radius: 25px;
 	margin-block-start: 1.1em;
-	margin-left: 4%;
+	margin-left: 6%;
   }
   .bar-img img{
 	float: left;
@@ -25,48 +25,57 @@ ul {
   li a {
 	font-family: Impact;
 	display: inline-block;
-	color: white;
+	color: rgb(109, 54, 14);
 	text-align: center;
 	padding: 14px 16px;
 	letter-spacing: 2px;
 	text-decoration: none;
+	font-size: 25px;
   }
 
   li a:hover {
-	background-color: #111;
+	background-color: rgb(185, 126, 37);
   }
   img.logo{
 	display: inline-block;
     vertical-align: top;
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     margin-right: 20px;
-    margin-top: 15px;
+    margin-top: 12px;
   }
+.louis{
+	font-family: Brush Script MT ;
+	font-size: 150px;
+	text-align: center;
+	color: rgb(109, 54, 14);
+}
 body{
-	background-color: #B0C4DE;
+	
+	background-image: url('img/4.png');
 }
 .center{
-	
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 25%;
-	border-radius: 85%
+	border-radius: 90%
 }
 
 h2{
 	text-shadow: 2px 2px white;
 	text-align: center;
-	color: rgb(10, 99, 102);
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: rgb(167, 90, 3);
+	font-family: sVerdana, Geneva, Tahoma, sans-serif;
+	font-size: 200%;
 }
 
 h3{
 	text-align: center;
+	font-size: 150%;
 }
 section{
-	border:3px solid white;
+	
 	text-align: right;
 	border-radius: 10px;
 	font-family: Arial, Helvetica, sans-serif;
@@ -77,8 +86,8 @@ h3.title{
 	text-align: center;
 	font-family: Fantasy;
 	letter-spacing: 2px;
-	font-size: xx-large;
-	color: cornflowerblue;
+	font-size: 80px;
+	color: rgb(143, 89, 29);
 }
 img.tree{
 	height: 300px;
@@ -130,3 +139,94 @@ div.gallery {
 	line-height: 1.9;
 	font-family: sVerdana, Geneva, Tahoma, sans-serif;
 }
+.like-img{
+	float: left;
+	width: 300px;
+	height: 300px;
+	margin-left: 25%;
+}
+.like-box{
+	margin-right: 47%;
+}
+.like-text{
+	margin-right: 43%;
+}
+.qr{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.ques{
+	margin-right: 10%;
+}
+.ans{
+	float: right;
+	
+}
+.sub-ans{
+	float: right;
+}
+
+
+
+* {
+	box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+  }
+  
+  input[type=submit] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+	background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+	float: left;
+	width: 50%;
+	margin-top: 6px;
+	padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+	.column, input[type=submit] {
+	  width: 100%;
+	  margin-top: 0;
+	}
+  }
+
+  .label{
+	  float: left;
+  }
+
+
