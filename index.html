@@ -2,6 +2,7 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>האתר של לואי שוואב</title>
   </head>
   <body>
     <div id="menu">
@@ -249,9 +250,16 @@
             <label class="label" for="email">Your Email Address</label>
             <input style="text-align:left" type="text" id="email" name="emailaddr" placeholder="bla.bla@gmail.com">
             <label class="label" for="subject">Message</label>
-            <textarea style="text-align:left" id="subject" name="subject" placeholder="...Write something" style="height:170px"></textarea>
+            <textarea  id="subject" name="subject" placeholder="...Write something" style="text-align:left;height:170px" data-emoji-picker="true"></textarea>
             <input type="submit" value="Submit">
           </form>
+          <script type = "text/javascript" src="emoji.js">
+          </script>
+          <script >
+            (() => {
+          new EmojiPicker()
+            })()
+          </script>
         </div>
       </div>
     </div>
