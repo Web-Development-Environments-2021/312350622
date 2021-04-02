@@ -7,7 +7,7 @@ assignment1-lielserfaty created by GitHub Classroom
 
 ת.ז - 312350622
 
-כתובת האתר - https://web-development-environments-2021.github.io/assignment1-lielserfaty/
+כתובת האתר - https://web-development-environments-2021.github.io/312350622/
 
 
 האתר נבנה על סבא שלי, אדם יקר לליבי מאוד!
