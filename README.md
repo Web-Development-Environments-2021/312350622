@@ -2,9 +2,13 @@
 assignment1-lielserfaty created by GitHub Classroom
 
 מגיש:
+
 ליאל צרפתי
+
 ת.ז - 312350622
+
 כתובת האתר - https://web-development-environments-2021.github.io/assignment1-lielserfaty/
+
 
 האתר נבנה על סבא שלי, אדם יקר לליבי מאוד!
 תודה רבה על ההזדמנות שניתנה לי בעבודה לשמח אותו, ולשוחח איתו על דברים!
